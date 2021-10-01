@@ -1,0 +1,68 @@
+2021-10-01 17:39:08,543 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-10-01 17:39:08,543 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2021-10-01 17:39:08,543 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2021-10-01 17:39:08,543 INFO Included extra file "/opt/docker/etc/supervisor.d/nginx.conf" during parsing
+2021-10-01 17:39:08,543 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2021-10-01 17:39:08,543 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2021-10-01 17:39:08,543 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2021-10-01 17:39:08,543 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2021-10-01 17:39:08,551 INFO RPC interface 'supervisor' initialized
+2021-10-01 17:39:08,551 INFO supervisord started with pid 1
+2021-10-01 17:39:09,554 INFO spawned: 'syslogd' with pid 82
+2021-10-01 17:39:09,555 INFO spawned: 'nginxd' with pid 83
+2021-10-01 17:39:09,558 INFO spawned: 'php-fpmd' with pid 84
+2021-10-01 17:39:09,560 INFO spawned: 'crond' with pid 85
+2021-10-01 17:39:09,560 INFO success: nginxd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-10-01 17:39:09,560 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-10-01 17:39:09,561 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-10-01 17:39:10,674 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-01 17:42:37,119 WARN received SIGQUIT indicating exit request
+2021-10-01 17:42:37,119 INFO waiting for syslogd, nginxd, php-fpmd, crond to die
+2021-10-01 17:42:39,125 INFO stopped: crond (terminated by SIGTERM)
+2021-10-01 17:42:39,157 INFO stopped: php-fpmd (exit status 0)
+2021-10-01 17:42:39,248 INFO stopped: nginxd (exit status 0)
+2021-10-01 17:42:40,251 INFO waiting for syslogd to die
+2021-10-01 17:42:40,356 INFO stopped: syslogd (exit status 0)
+2021-10-01 17:44:31,026 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-10-01 17:44:31,026 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2021-10-01 17:44:31,026 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2021-10-01 17:44:31,027 INFO Included extra file "/opt/docker/etc/supervisor.d/nginx.conf" during parsing
+2021-10-01 17:44:31,027 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2021-10-01 17:44:31,027 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2021-10-01 17:44:31,027 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2021-10-01 17:44:31,027 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2021-10-01 17:44:31,031 INFO RPC interface 'supervisor' initialized
+2021-10-01 17:44:31,031 INFO supervisord started with pid 1
+2021-10-01 17:44:32,034 INFO spawned: 'syslogd' with pid 82
+2021-10-01 17:44:32,038 INFO spawned: 'nginxd' with pid 83
+2021-10-01 17:44:32,045 INFO spawned: 'php-fpmd' with pid 84
+2021-10-01 17:44:32,048 INFO spawned: 'crond' with pid 85
+2021-10-01 17:44:32,051 INFO success: nginxd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-10-01 17:44:32,051 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-10-01 17:44:32,051 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-10-01 17:44:33,280 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-01 17:47:02,523 WARN received SIGQUIT indicating exit request
+2021-10-01 17:47:02,524 INFO waiting for syslogd, nginxd, php-fpmd, crond to die
+2021-10-01 17:47:04,529 INFO stopped: crond (terminated by SIGTERM)
+2021-10-01 17:47:04,541 INFO stopped: php-fpmd (exit status 0)
+2021-10-01 17:47:04,622 INFO stopped: nginxd (exit status 0)
+2021-10-01 17:47:05,624 INFO waiting for syslogd to die
+2021-10-01 17:47:05,728 INFO stopped: syslogd (exit status 0)
+2021-10-01 18:22:28,660 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-10-01 18:22:28,660 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2021-10-01 18:22:28,660 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2021-10-01 18:22:28,660 INFO Included extra file "/opt/docker/etc/supervisor.d/nginx.conf" during parsing
+2021-10-01 18:22:28,660 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2021-10-01 18:22:28,660 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2021-10-01 18:22:28,660 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2021-10-01 18:22:28,660 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2021-10-01 18:22:28,665 INFO RPC interface 'supervisor' initialized
+2021-10-01 18:22:28,665 INFO supervisord started with pid 1
+2021-10-01 18:22:29,668 INFO spawned: 'syslogd' with pid 82
+2021-10-01 18:22:29,670 INFO spawned: 'nginxd' with pid 83
+2021-10-01 18:22:29,672 INFO spawned: 'php-fpmd' with pid 84
+2021-10-01 18:22:29,673 INFO spawned: 'crond' with pid 85
+2021-10-01 18:22:29,674 INFO success: nginxd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-10-01 18:22:29,674 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-10-01 18:22:29,675 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-10-01 18:22:30,771 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
