@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+  todo:
+    container_name: todo
+    build:
+      context: ./todo
+      args:
+        - APP_ENV=development
+        - COMPOSER_NO_INTERACTION=0
+    image: todo
+    ports:
+      - 3006:80
+    volumes:
+      - ./todo/src:/app
+    command: bash -c "composer update --lock --prefer-source && supervisord"
+  mysql-server:
+    image: mysql:5.7
+    container_name: todo-db
+    environment:
+      MYSQL_DATABASE: todo-db
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3307:3306
+    volumes:
+      - ./todo-db/data:/var/lib/mysql:rw

@@ -1,0 +1,19 @@
+version: '3.7'
+
+networks:
+  laravel:
+
+services:
+  todo:
+    container_name: todo
+    build:
+      context: '.'
+      args:
+        - APP_ENV=development
+        - COMPOSER_NO_INTERACTION=0
+    image: todo
+    ports:
+      - 3006:80
+    volumes:
+      - ./src:/app
+    command: bash -c "composer update --lock --prefer-source && supervisord"
